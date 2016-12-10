@@ -44,16 +44,20 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var message = __webpack_require__(1);
 	console.log(message);
-
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = "go all out";
+	"use strict";
 
+	var mssg = "work harder";
+
+	module.exports = mssg;
 
 /***/ }
 /******/ ]);

@@ -1,1 +1,4 @@
-module.exports = "go all out";
+const mssg = "work harder";
+
+
+module.exports = mssg;
