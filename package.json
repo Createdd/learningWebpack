@@ -1,0 +1,23 @@
+{
+  "name": "webpacktutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index",
+    "watch": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jshintConfig": {
+    "node": true,
+    "esversion": 6
+  },
+  "author": "Daniel Deutsch",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
