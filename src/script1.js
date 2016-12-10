@@ -1,2 +1,3 @@
 var message = require('./script2');
-console.log(message);
+console.log("working");
+require('./css/introComponent.css');
